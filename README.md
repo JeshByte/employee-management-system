@@ -18,11 +18,13 @@ A modern, responsive Full-Stack Employee Management application built with **Ang
 ## 📸 Screenshots
 
 ### Dashboard & Table View
-> ![Dashboard View](PUT_LINK_TO_DASHBOARD_IMAGE_HERE)
+ ![Dashboard View](https://github.com/JeshByte/employee-management-system/blob/main/assets/Table.png?raw=true)
+
 *The main dashboard featuring the Mat-Table with pagination and filtering.*
 
 ### Add/Edit Employee Form
-> ![Form View](PUT_LINK_TO_FORM_IMAGE_HERE)
+ ![Form View](https://github.com/JeshByte/employee-management-system/blob/main/assets/Form.png?raw=true)
+
 *Interactive dialog for adding and updating employee details.*
 
 ---
@@ -46,7 +48,7 @@ A modern, responsive Full-Stack Employee Management application built with **Ang
 
 ### 1. Backend Setup (Spring Boot)
 1. Navigate to the `employee-management-system-backend` folder.
-2. Update `src/main/resources/application.properties` with your MySQL credentials.
+2. Update `src/main/resources/application.properties` with your PostgreSQL credentials.
 3. Run the application via your IDE or terminal:
    ```bash
    mvn spring-boot:run
