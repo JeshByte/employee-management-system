@@ -1,0 +1,9 @@
+spring.application.name=employee-management-system-backend
+spring.datasource.url= YOUR_DATABASE_URL
+spring.datasource.username= YOUR_DATABASE_USERNAME
+spring.datasource.password= YOUR_DATABASE_PASSWORD
+
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation= true
+spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.PostgreSQLDialect
+
+spring.jpa.hibernate.ddl-auto= update
