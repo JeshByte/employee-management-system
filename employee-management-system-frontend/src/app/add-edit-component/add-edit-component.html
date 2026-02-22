@@ -1,0 +1,38 @@
+<div mat-dialog-title>
+    <h1>{{data ? 'Edit': 'Add'}} Employee Form</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>First name:</mat-label>
+                <input matInput type="text" placeholder="i.e David" formControlName="firstName">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Last Name:</mat-label>
+                <input matInput type="text" placeholder="i.e Smith" formControlName="lastName">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Position:</mat-label>
+                <input matInput type="text" placeholder="i.e Manager" formControlName="position">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Department:</mat-label>
+                <input matInput placeholder="i.e Accounting" formControlName="department">
+            </mat-form-field>
+        </div>
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Salary:</mat-label>
+                <input matInput placeholder="i.e 15000" type="number" formControlName="salary">
+                <mat-hint>In dollar</mat-hint>
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action-btns">
+        <button style="margin: 10px;" mat-raised-button color="accent" type="submit">{{data ? 'Update': 'Save'}}</button>
+        <button mat-raised-button type="button" color="warn" [mat-dialog-close]="false">Cancel</button>
+    </div>
+</form>
