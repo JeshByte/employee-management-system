@@ -1,6 +1,6 @@
 # Employee Management System (Full-Stack CRUD)
 
-A modern, responsive Full-Stack Employee Management application built with **Angular 19** and **Spring Boot 3**. This application allows users to perform complete CRUD (Create, Read, Update, Delete) operations on employee data, featuring a polished UI with Angular Material.
+A modern, polished Full-Stack Employee Management application built with **Angular 19** and **Spring Boot 3**. This application allows users to perform complete CRUD (Create, Read, Update, Delete) operations on employee data, featuring a polished UI with Angular Material.
 
 ---
 
